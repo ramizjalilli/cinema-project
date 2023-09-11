@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;500;600;700;800&family=Orbitron:wght@400;500;600;700;800;900&family=REM:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&family=Unna:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="all_background_header">
+            <div class="background_color_all">
+                <div class="header_head_container container">
+                    <img src="./image/MOVIEDOM.png" alt="">
+
+                   
+                    <ul class="nav_list">
+                        <i class="fas fa-close close_icon"></i>
+                        <li><a href="#">Tv shows</a></li>
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">Upcoming</a></li>
+                        <li><a href="#">Trailes</a></li>
+                        <li><a href="#">My list</a></li>
+                    </ul>
+                    
+
+                    <div class="header_icons">
+                        <div class="inp_div">
+                            <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                            <input class="head_inp" placeholder="Search for Movies.." type="text">
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 16 18" fill="none">
+                            <path
+                                d="M14.648 10.7018L14.3 10.4275C14.2065 10.3541 14.1309 10.261 14.079 10.1551C14.0271 10.0493 14.0001 9.93338 14 9.81594V6.64863C13.9995 5.28749 13.5172 3.96867 12.6353 2.91713C11.7534 1.86558 10.5265 1.14645 9.164 0.882386C9.09756 0.629863 8.94736 0.406144 8.73701 0.246413C8.52667 0.0866817 8.26811 0 8.002 0C7.73589 0 7.47733 0.0866817 7.26699 0.246413C7.05664 0.406144 6.90644 0.629863 6.84 0.882386C5.47672 1.14565 4.24894 1.86444 3.36624 2.91606C2.48354 3.96768 2.00065 5.28694 2 6.64863V9.81594C1.99993 9.93338 1.97293 10.0493 1.921 10.1551C1.86908 10.261 1.79355 10.3541 1.7 10.4275L1.352 10.7018C0.931712 11.0311 0.592092 11.4485 0.35812 11.9234C0.124147 12.3983 0.00177343 12.9185 0 13.4458V14.0965C0 14.5124 0.168571 14.9112 0.468629 15.2052C0.768687 15.4993 1.17565 15.6645 1.6 15.6645H4.904C5.08432 16.3339 5.48561 16.926 6.04528 17.3484C6.60495 17.7709 7.29155 18 7.998 18C8.70445 18 9.39105 17.7709 9.95072 17.3484C10.5104 16.926 10.9117 16.3339 11.092 15.6645H14.4C14.8243 15.6645 15.2313 15.4993 15.5314 15.2052C15.8314 14.9112 16 14.5124 16 14.0965V13.4536C15.9994 12.925 15.8776 12.4033 15.6436 11.9269C15.4096 11.4506 15.0693 11.032 14.648 10.7018ZM8 16.4485C7.72078 16.4468 7.44686 16.3736 7.20546 16.2361C6.96407 16.0985 6.76361 15.9015 6.624 15.6645H9.38C9.24005 15.9021 9.03896 16.0995 8.7968 16.237C8.55465 16.3746 8.2799 16.4475 8 16.4485ZM14.4 14.0965H1.6V13.4536C1.60043 13.1599 1.66823 12.87 1.7984 12.6054C1.92856 12.3407 2.11776 12.1082 2.352 11.9249L2.7 11.6505C2.98065 11.4303 3.20723 11.1511 3.36301 10.8336C3.51878 10.516 3.59978 10.1683 3.6 9.81594V6.64863C3.6 5.50503 4.06357 4.40827 4.88873 3.59962C5.71389 2.79098 6.83305 2.33669 8 2.33669C9.16695 2.33669 10.2861 2.79098 11.1113 3.59962C11.9364 4.40827 12.4 5.50503 12.4 6.64863V9.81594C12.3996 10.1689 12.4803 10.5175 12.6361 10.8357C12.7919 11.154 13.0188 11.4338 13.3 11.6544L13.648 11.9288C13.8817 12.1117 14.0706 12.3436 14.2007 12.6075C14.3309 12.8714 14.399 13.1606 14.4 13.4536V14.0965Z"
+                                fill="white" />
+                        </svg>
+
+                        <div class="profilim">
+                            <p class="my_name"></p>
+                            <i class="fa-solid fa-right-from-bracket profil_icon" style="color: var(--ag);"></i>
+
+                        </div>
+
+                       <i class="fa-solid fa-bars bars_icon" style="color: var(--ag);"></i>
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M10 0C4.48625 0 0 4.48625 0 10C0 12.9546 1.28917 15.6133 3.33333 17.4454V17.4525L3.47833 17.5775C3.50375 17.5996 3.53167 17.6179 3.5575 17.6396C3.73708 17.7912 3.92208 17.9367 4.11208 18.0758C4.16333 18.1133 4.21458 18.1496 4.26667 18.1858C4.46833 18.3275 4.67458 18.4625 4.88625 18.5892C4.92167 18.6104 4.95792 18.6304 4.99333 18.6508C5.22542 18.7858 5.4625 18.9129 5.70583 19.0292C5.70833 19.0304 5.71083 19.0312 5.71333 19.0325C6.23375 19.2804 6.77958 19.4833 7.34458 19.6392C7.355 19.6421 7.36542 19.6454 7.37583 19.6479C7.64292 19.7208 7.91458 19.7821 8.19 19.8325C8.21583 19.8371 8.24125 19.8417 8.26708 19.8463C8.53292 19.8929 8.80208 19.93 9.075 19.9554C9.10625 19.9583 9.1375 19.96 9.16833 19.9625C9.44292 19.9854 9.71958 20 10 20C10.2804 20 10.5571 19.9854 10.8317 19.9625C10.8629 19.96 10.8942 19.9583 10.925 19.9554C11.1979 19.9304 11.4671 19.8929 11.7329 19.8463C11.7587 19.8417 11.7842 19.8371 11.81 19.8325C12.0854 19.7821 12.3571 19.7208 12.6242 19.6479C12.6346 19.645 12.645 19.6421 12.6554 19.6392C13.2204 19.4833 13.7662 19.2804 14.2867 19.0325C14.2892 19.0312 14.2917 19.0304 14.2942 19.0292C14.5375 18.9129 14.7746 18.7854 15.0067 18.6508C15.0425 18.63 15.0783 18.6104 15.1137 18.5892C15.3258 18.4625 15.5321 18.3271 15.7333 18.1858C15.785 18.1496 15.8367 18.1133 15.8879 18.0758C16.0779 17.9367 16.2629 17.7912 16.4425 17.6396C16.4683 17.6179 16.4962 17.5996 16.5217 17.5775L16.6667 17.4525V17.4454C18.7108 15.6129 20 12.9546 20 10C20 4.48625 15.5138 0 10 0ZM10 10C8.16208 10 6.66667 8.50458 6.66667 6.66667C6.66667 4.82875 8.16208 3.33333 10 3.33333C11.8379 3.33333 13.3333 4.82875 13.3333 6.66667C13.3333 8.50458 11.8379 10 10 10ZM11.25 10.8333C13.7771 10.8333 15.8333 12.8896 15.8333 15.4167V17.0658C15.8158 17.0804 15.7975 17.0938 15.78 17.1083C15.6154 17.2421 15.4467 17.3692 15.2742 17.4908C15.2358 17.5179 15.1983 17.5458 15.16 17.5721C14.9737 17.6992 14.7825 17.8183 14.5879 17.9312C14.5525 17.9521 14.5167 17.9725 14.4808 17.9929C14.2767 18.1075 14.0687 18.215 13.8567 18.3133C13.8346 18.3237 13.8121 18.3337 13.7896 18.3438C13.0975 18.6583 12.3683 18.8862 11.6179 19.0212C11.5942 19.0254 11.5704 19.03 11.5467 19.0342C11.3104 19.0746 11.0721 19.1058 10.8321 19.1279C10.7992 19.1308 10.7658 19.1329 10.7325 19.1354C10.4896 19.1542 10.2454 19.1667 10 19.1667C9.75458 19.1667 9.51042 19.1542 9.2675 19.1346C9.23458 19.1321 9.20125 19.13 9.16792 19.1271C8.92792 19.105 8.68958 19.0742 8.45333 19.0333C8.42958 19.0292 8.40583 19.025 8.38208 19.0204C7.63167 18.8854 6.9025 18.6575 6.21042 18.3429C6.18792 18.3325 6.16542 18.3229 6.14333 18.3125C5.93125 18.2142 5.72333 18.1067 5.51917 17.9921C5.48333 17.9717 5.44792 17.9513 5.41208 17.9304C5.2175 17.8179 5.02625 17.6983 4.84 17.5713C4.80125 17.545 4.76375 17.5171 4.72583 17.49C4.55333 17.3683 4.38458 17.2417 4.22 17.1075C4.2025 17.0933 4.18417 17.0796 4.16667 17.065V15.4167C4.16667 12.8896 6.22292 10.8333 8.75 10.8333H11.25ZM16.6667 16.2817V15.4167C16.6667 12.8037 14.8067 10.6171 12.3417 10.1104C13.4421 9.36 14.1667 8.09625 14.1667 6.66667C14.1667 4.36917 12.2975 2.5 10 2.5C7.7025 2.5 5.83333 4.36917 5.83333 6.66667C5.83333 8.09625 6.55792 9.36 7.65833 10.1104C5.19333 10.6171 3.33333 12.8037 3.33333 15.4167V16.2817C1.785 14.6396 0.833333 12.4296 0.833333 10C0.833333 4.94542 4.94542 0.833333 10 0.833333C15.0546 0.833333 19.1667 4.94542 19.1667 10C19.1667 12.4296 18.215 14.6396 16.6667 16.2817Z"
+                                fill="white" />
+                        </svg> -->
+
+                        <!-- <i class="fa-solid fa-right-from-bracket" style="color: #FFF;"></i> -->
+                    </div>
+                </div>
+
+
+                <div class="header_middle_container container">
+                    <div class="header_middle_content">
+                        <h1>THE LOST CITY</h1>
+
+                        <div class="header_content">
+                            <p>Action-Adventure</p>
+                            <p class="p_class">Comedy</p>
+                            <p>Action</p>
+                        </div>
+
+                        <p class="content">Alan, who is secretly enamored with Loretta, witnesses her kidnapping. He
+                            recruits Jack
+                            Trainer, a former
+                            Navy SEAL turned CIA operative, to meet him on the island and coordinate a
+                            rescueattempt.Jack, with no assistance from Alan.</p>
+
+                        <div class="middle_icons">
+                            <div>
+                                <i class="fa-regular fa-clock" style="color: #ffffff;"></i>
+                                <p>164 min</p>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-volume-high" style="color: #ffffff;"></i>
+                                <p>Subtitles</p>
+                            </div>
+
+                            <div>
+                                <p><b>Imdb</b>:9.1/10</p>
+                            </div>
+                        </div>
+                        <div class="button_div">
+                            <button class="watch_btn"><i class="fa-solid fa-play" style="color: #ffffff;"></i> Watch
+                                now</button>
+                            <button class="add_btn">+ Add list</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section>
+            <div class="section_header_container container">
+                <div class="section_header">
+                    <h2>Continue Watching</h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="291" height="6" viewBox="0 0 291 6" fill="none">
+                        <path d="M0 0H288C289.657 0 291 1.34315 291 3C291 4.65685 289.657 6 288 6H0V0Z"
+                            fill="url(#paint0_linear_66_13)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_66_13" x1="145.5" y1="4.10079e-05" x2="268.5" y2="3.00004"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#C00511" />
+                                <stop offset="1" stop-color="#C00511" stop-opacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+
+                <button>View All</button>
+            </div>
+
+            <div class="videos_container container">
+
+            </div>
+        </section>
+
+        <section>
+            <div class="section2_header_container">
+                <div class="section2_header container">
+                    <div class="section_header">
+                        <h2>Popular Movies</h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="291" height="6" viewBox="0 0 291 6" fill="none">
+                            <path d="M0 0H288C289.657 0 291 1.34315 291 3C291 4.65685 289.657 6 288 6H0V0Z"
+                                fill="url(#paint0_linear_66_13)" />
+                            <defs>
+                                <linearGradient id="paint0_linear_66_13" x1="145.5" y1="4.10079e-05" x2="268.5"
+                                    y2="3.00004" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#C00511" />
+                                    <stop offset="1" stop-color="#C00511" stop-opacity="0" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="section2_cards">
+                    <svg class="popular_left_icon svg" xmlns="http://www.w3.org/2000/svg" width="15" height="29"
+                        viewBox="0 0 15 29" fill="none">
+                        <path
+                            d="M1.83468 10.1092L11.433 0.602298C11.8248 0.216529 12.3548 0 12.9072 0C13.4596 0 13.9896 0.216529 14.3814 0.602298C14.5774 0.794845 14.733 1.02392 14.8392 1.27632C14.9453 1.52872 15 1.79944 15 2.07287C15 2.3463 14.9453 2.61702 14.8392 2.86942C14.733 3.12181 14.5774 3.35089 14.3814 3.54344L4.76225 13.0297C4.56626 13.2222 4.41069 13.4513 4.30453 13.7037C4.19836 13.9561 4.1437 14.2268 4.1437 14.5002C4.1437 14.7737 4.19836 15.0444 4.30453 15.2968C4.41069 15.5492 4.56626 15.7783 4.76225 15.9708L14.3814 25.457C14.7752 25.8443 14.9975 26.3707 14.9995 26.9203C15.0015 27.4699 14.7829 27.9978 14.3919 28.3878C14.0009 28.7778 13.4695 28.998 12.9146 29C12.3597 29.0019 11.8267 28.7854 11.433 28.3982L1.83468 18.8912C0.659876 17.7262 0 16.1469 0 14.5002C0 12.8536 0.659876 11.2743 1.83468 10.1092Z"
+                            fill="white" fill-opacity="0.52" />
+                    </svg>
+                    <div class="cards_div container slider_first_container">
+                        <!-- <div class="card">
+                            <img src="./image/image 9.png" alt="">
+                            <p>The 355</p>
+                        </div>
+                        <div class="card">
+                            <img src="./image/image 10.png" alt="">
+                            <p>Turning Red</p>
+                        </div>
+                        <div class="card">
+                            <img src="./image/Rectangle 16 (1).png" alt="">
+                            <p>Harry Potter 2022</p>
+                        </div>
+                        <div class="card">
+                            <img src="./image/image 11.png" alt="">
+                            <p>The Adam project</p>
+                        </div> -->
+                    </div>
+                    <svg class="popular_right_icon svg" xmlns="http://www.w3.org/2000/svg" width="15" height="29"
+                        viewBox="0 0 15 29" fill="none">
+                        <path
+                            d="M13.1653 10.1092L3.56705 0.602298C3.17525 0.216529 2.64524 0 2.0928 0C1.54035 0 1.01035 0.216529 0.618552 0.602298C0.422554 0.794845 0.266987 1.02392 0.160823 1.27632C0.0546589 1.52872 0 1.79944 0 2.07287C0 2.3463 0.0546589 2.61702 0.160823 2.86942C0.266987 3.12181 0.422554 3.35089 0.618552 3.54344L10.2377 13.0297C10.4337 13.2222 10.5893 13.4513 10.6955 13.7037C10.8016 13.9561 10.8563 14.2268 10.8563 14.5002C10.8563 14.7737 10.8016 15.0444 10.6955 15.2968C10.5893 15.5492 10.4337 15.7783 10.2377 15.9708L0.618552 25.457C0.224785 25.8443 0.00246735 26.3707 0.000506541 26.9203C-0.00145427 27.4699 0.217104 27.9978 0.608098 28.3878C0.999093 28.7778 1.5305 28.998 2.08541 29C2.64032 29.0019 3.17328 28.7854 3.56705 28.3982L13.1653 18.8912C14.3401 17.7262 15 16.1469 15 14.5002C15 12.8536 14.3401 11.2743 13.1653 10.1092Z"
+                            fill="white" fill-opacity="0.52" />
+                    </svg>
+                </div>
+
+            </div>
+
+            <div class="container">
+                <button class="load_btn container">Load More</button>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="section2_header_container">
+                <div class="section2_header container">
+                    <div class="section_header">
+                        <h2>Popular Movies</h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="291" height="6" viewBox="0 0 291 6" fill="none">
+                            <path d="M0 0H288C289.657 0 291 1.34315 291 3C291 4.65685 289.657 6 288 6H0V0Z"
+                                fill="url(#paint0_linear_66_13)" />
+                            <defs>
+                                <linearGradient id="paint0_linear_66_13" x1="145.5" y1="4.10079e-05" x2="268.5"
+                                    y2="3.00004" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#C00511" />
+                                    <stop offset="1" stop-color="#C00511" stop-opacity="0" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="section2_cards ">
+                    <svg class="comedy_left_icon svg" xmlns="http://www.w3.org/2000/svg" width="15" height="29"
+                        viewBox="0 0 15 29" fill="none">
+                        <path
+                            d="M1.83468 10.1092L11.433 0.602298C11.8248 0.216529 12.3548 0 12.9072 0C13.4596 0 13.9896 0.216529 14.3814 0.602298C14.5774 0.794845 14.733 1.02392 14.8392 1.27632C14.9453 1.52872 15 1.79944 15 2.07287C15 2.3463 14.9453 2.61702 14.8392 2.86942C14.733 3.12181 14.5774 3.35089 14.3814 3.54344L4.76225 13.0297C4.56626 13.2222 4.41069 13.4513 4.30453 13.7037C4.19836 13.9561 4.1437 14.2268 4.1437 14.5002C4.1437 14.7737 4.19836 15.0444 4.30453 15.2968C4.41069 15.5492 4.56626 15.7783 4.76225 15.9708L14.3814 25.457C14.7752 25.8443 14.9975 26.3707 14.9995 26.9203C15.0015 27.4699 14.7829 27.9978 14.3919 28.3878C14.0009 28.7778 13.4695 28.998 12.9146 29C12.3597 29.0019 11.8267 28.7854 11.433 28.3982L1.83468 18.8912C0.659876 17.7262 0 16.1469 0 14.5002C0 12.8536 0.659876 11.2743 1.83468 10.1092Z"
+                            fill="white" fill-opacity="0.52" />
+                    </svg>
+                    <div class="cards_div container slider_second_container">
+                        <!-- <div class="card">
+                            <img src="./image/image 9.png" alt="">
+                            <p>The 355</p>
+                        </div>
+                        <div class="card">
+                            <img src="./image/image 10.png" alt="">
+                            <p>Turning Red</p>
+                        </div>
+                        <div class="card">
+                            <img src="./image/Rectangle 16 (1).png" alt="">
+                            <p>Harry Potter 2022</p>
+                        </div>
+                        <div class="card">
+                            <img src="./image/image 11.png" alt="">
+                            <p>The Adam project</p>
+                        </div> -->
+                    </div>
+                    <svg class="comedy_right_icon svg" xmlns="http://www.w3.org/2000/svg" width="15" height="29"
+                        viewBox="0 0 15 29" fill="none">
+                        <path
+                            d="M13.1653 10.1092L3.56705 0.602298C3.17525 0.216529 2.64524 0 2.0928 0C1.54035 0 1.01035 0.216529 0.618552 0.602298C0.422554 0.794845 0.266987 1.02392 0.160823 1.27632C0.0546589 1.52872 0 1.79944 0 2.07287C0 2.3463 0.0546589 2.61702 0.160823 2.86942C0.266987 3.12181 0.422554 3.35089 0.618552 3.54344L10.2377 13.0297C10.4337 13.2222 10.5893 13.4513 10.6955 13.7037C10.8016 13.9561 10.8563 14.2268 10.8563 14.5002C10.8563 14.7737 10.8016 15.0444 10.6955 15.2968C10.5893 15.5492 10.4337 15.7783 10.2377 15.9708L0.618552 25.457C0.224785 25.8443 0.00246735 26.3707 0.000506541 26.9203C-0.00145427 27.4699 0.217104 27.9978 0.608098 28.3878C0.999093 28.7778 1.5305 28.998 2.08541 29C2.64032 29.0019 3.17328 28.7854 3.56705 28.3982L13.1653 18.8912C14.3401 17.7262 15 16.1469 15 14.5002C15 12.8536 14.3401 11.2743 13.1653 10.1092Z"
+                            fill="white" fill-opacity="0.52" />
+                    </svg>
+                </div>
+
+            </div>
+            <div class="container">
+                <button class="load_btn container">Load More</button>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="section2_header_container">
+                <div class="section2_header container">
+                    <div class="section_header">
+                        <h2>Popular Movies</h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="291" height="6" viewBox="0 0 291 6" fill="none">
+                            <path d="M0 0H288C289.657 0 291 1.34315 291 3C291 4.65685 289.657 6 288 6H0V0Z"
+                                fill="url(#paint0_linear_66_13)" />
+                            <defs>
+                                <linearGradient id="paint0_linear_66_13" x1="145.5" y1="4.10079e-05" x2="268.5"
+                                    y2="3.00004" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#C00511" />
+                                    <stop offset="1" stop-color="#C00511" stop-opacity="0" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="section2_cards">
+                    <svg class="action_left_icon svg" xmlns="http://www.w3.org/2000/svg" width="15" height="29"
+                        viewBox="0 0 15 29" fill="none">
+                        <path
+                            d="M1.83468 10.1092L11.433 0.602298C11.8248 0.216529 12.3548 0 12.9072 0C13.4596 0 13.9896 0.216529 14.3814 0.602298C14.5774 0.794845 14.733 1.02392 14.8392 1.27632C14.9453 1.52872 15 1.79944 15 2.07287C15 2.3463 14.9453 2.61702 14.8392 2.86942C14.733 3.12181 14.5774 3.35089 14.3814 3.54344L4.76225 13.0297C4.56626 13.2222 4.41069 13.4513 4.30453 13.7037C4.19836 13.9561 4.1437 14.2268 4.1437 14.5002C4.1437 14.7737 4.19836 15.0444 4.30453 15.2968C4.41069 15.5492 4.56626 15.7783 4.76225 15.9708L14.3814 25.457C14.7752 25.8443 14.9975 26.3707 14.9995 26.9203C15.0015 27.4699 14.7829 27.9978 14.3919 28.3878C14.0009 28.7778 13.4695 28.998 12.9146 29C12.3597 29.0019 11.8267 28.7854 11.433 28.3982L1.83468 18.8912C0.659876 17.7262 0 16.1469 0 14.5002C0 12.8536 0.659876 11.2743 1.83468 10.1092Z"
+                            fill="white" fill-opacity="0.52" />
+                    </svg>
+                    <div class="cards_div container slider_third_container">
+                        <!-- <div class="card">
+                            <img src="./image/image 9.png" alt="">
+                            <p>The 355</p>
+                        </div>
+                        <div class="card">
+                            <img src="./image/image 10.png" alt="">
+                            <p>Turning Red</p>
+                        </div>
+                        <div class="card">
+                            <img src="./image/Rectangle 16 (1).png" alt="">
+                            <p>Harry Potter 2022</p>
+                        </div>
+                        <div class="card">
+                            <img src="./image/image 11.png" alt="">
+                            <p>The Adam project</p>
+                        </div> -->
+                    </div>
+                    <svg class="action_right_icon svg" xmlns="http://www.w3.org/2000/svg" width="15" height="29"
+                        viewBox="0 0 15 29" fill="none">
+                        <path
+                            d="M13.1653 10.1092L3.56705 0.602298C3.17525 0.216529 2.64524 0 2.0928 0C1.54035 0 1.01035 0.216529 0.618552 0.602298C0.422554 0.794845 0.266987 1.02392 0.160823 1.27632C0.0546589 1.52872 0 1.79944 0 2.07287C0 2.3463 0.0546589 2.61702 0.160823 2.86942C0.266987 3.12181 0.422554 3.35089 0.618552 3.54344L10.2377 13.0297C10.4337 13.2222 10.5893 13.4513 10.6955 13.7037C10.8016 13.9561 10.8563 14.2268 10.8563 14.5002C10.8563 14.7737 10.8016 15.0444 10.6955 15.2968C10.5893 15.5492 10.4337 15.7783 10.2377 15.9708L0.618552 25.457C0.224785 25.8443 0.00246735 26.3707 0.000506541 26.9203C-0.00145427 27.4699 0.217104 27.9978 0.608098 28.3878C0.999093 28.7778 1.5305 28.998 2.08541 29C2.64032 29.0019 3.17328 28.7854 3.56705 28.3982L13.1653 18.8912C14.3401 17.7262 15 16.1469 15 14.5002C15 12.8536 14.3401 11.2743 13.1653 10.1092Z"
+                            fill="white" fill-opacity="0.52" />
+                    </svg>
+                </div>
+
+            </div>
+
+            <div class="container">
+                <button class="load_btn container">Load More</button>
+            </div>
+        </section>
+
+
+
+
+
+    </main>
+
+    <footer>
+        <div class="background_footer">
+            <div class="footer_container container">
+
+                <img src="./image/MOVIEDOM.png" alt="">
+
+                <ul class="footer_nav_list">
+                    <li><a href="#">Tv shows</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">Upcoming</a></li>
+                    <li><a href="#">Trailers</a></li>
+                    <li><a href="#">My list</a></li>
+                </ul>
+
+                <div class="footer_icons">
+                    <div><i class="fa-brands fa-youtube" style="color: #191817;"></i></div>
+                    <div><i class="fa-brands fa-instagram" style="color: #191817;"></i></div>
+                    <div><i class="fa-brands fa-facebook-f" style="color: #191817;"></i></div>
+                    <div><i class="fa-brands fa-twitter" style="color: #191817;"></i></div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

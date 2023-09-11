@@ -1,0 +1,238 @@
+@media screen and (max-width:1290px) {
+    .section2_cards {
+
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .section2_cards svg {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .nav_list {
+        gap: 30px;
+    }
+
+    .footer_nav_list {
+        gap: 20px;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 970px) {
+
+    .header_icons {
+        gap: 10px;
+    }
+
+    .nav_list {
+        gap: 15px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:870px) {
+    .nav_list {
+        flex-direction: column;
+        position: fixed;
+        top: -1000px;
+        left: 0;
+        /* top: 15vh; */
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 6px 0 0 6px;
+        transition: 0.5s;
+        z-index: 99;
+
+    }
+
+    .nav_active {
+        top: 0;
+    }
+
+    .header_icons {
+        position: fixed;
+        bottom: 0;
+        background: #010000;
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+        padding: 20px 0 50px;
+        z-index: 99;
+    }
+
+    .head_inp {
+        display: none;
+    }
+
+    .inp_div i,
+    .bars_icon,
+    .profilim i {
+        font-size: 2.4rem;
+    }
+
+    .header_icons svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .profilim p {
+        font-size: 2rem;
+    }
+
+    .close_icon {
+        color: var(--ag);
+    }
+
+    .close_icon,
+    .bars_icon {
+        display: block !important;
+    }
+
+
+}
+
+@media screen and (max-width:730px) {
+    .footer_container {
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 120px;
+    }
+}
+
+@media screen and (max-width:660px) {
+    .section_header h2 {
+        font-size: 2.2rem;
+    }
+
+    .section_header svg {
+        width: 160px;
+    }
+
+    .section_header {
+
+        gap: 20px;
+
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .section2_cards svg {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    .videos_container {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) !important;
+
+    }
+
+    .video_card {
+        min-width: 300px !important;
+
+    }
+
+    .section_header h2 {
+        font-size: 1.8rem;
+    }
+
+    .section_header svg {
+        width: 130px;
+    }
+
+    .section_header {
+
+        gap: 10px;
+
+    }
+
+
+}
+
+@media screen and (max-width:440px) {
+    .header_middle_content h1 {
+
+        font-size: 3.5rem;
+    }
+
+    .header_content p {
+        font-size: 1.5rem;
+    }
+
+    .content {
+
+        font-size: 1.2rem;
+        line-height: 16px;
+    }
+
+    .watch_btn {
+
+        width: 120px;
+        height: 40px;
+
+        font-size: 1.4rem;
+
+    }
+
+    .add_btn {
+
+        width: 100px;
+        height: 40px;
+
+        font-size: 1.6rem;
+    }
+
+    .middle_icons p {
+        font-size: 1.4rem;
+    }
+
+    .header_icons {
+
+        gap: 30px;
+        padding: 20px 0 20px;
+    }
+
+    .footer_nav_list {
+        flex-direction: column;
+    }
+
+    .inp_div i,
+    .bars_icon,
+    .profilim i {
+        font-size: 2rem;
+    }
+
+    .header_icons svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .profilim p {
+        font-size: 1.5rem;
+    }
+
+}

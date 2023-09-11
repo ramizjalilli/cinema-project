@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "title":"Jumanji",
+        "video":"../videos/video1(Jumanji).mp4"
+    },
+    {
+        "id":2,
+        "title":"Marry Me",
+        "video":"../videos/Video2().mp4"
+    },
+    {
+        "id":3,
+        "title":"Kimi (HBO Max)",
+        "video":"../videos/Video3.mp4"
+    }
+]
